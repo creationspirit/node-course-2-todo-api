@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha server/**/*.test.js",
-    "test-watch": "nodemon --exec 'npm test'"
+    "test-watch": "nodemon --exec 'npm test'",
+    "start-watch": "nodemon --exec 'node playground/mongoose-queries.js'"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +14,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongodb": "^2.2.5",
-    "mongoose": "^4.5.9"
+    "mongoose": "^5.2.15"
   },
   "devDependencies": {
     "expect": "^23.6.0",
